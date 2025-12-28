@@ -1,4 +1,5 @@
 import React from "react";
+import TextInput from "./periph/TextInput";
 import "./main.css";
 
 window.ctx = new window.AudioContext() || window.webkitAudioContext();
@@ -11,6 +12,7 @@ class Morse extends React.Component {
 					<h1>Morse Code</h1>
 				</div>
 				<div class="cont">
+					<TextInput />
 				</div>
 			</div>
 		);
