@@ -1,5 +1,6 @@
 import React from "react";
 import TextInput from "./periph/TextInput";
+import Light from "./periph/Light";
 import {
 	Toggle
 } from "./ctrl/Btn";
@@ -13,6 +14,9 @@ class Morse extends React.Component {
 			<div class="cont">
 				<div class="head">
 					<h1>Morse Code</h1>
+				</div>
+				<div class="body">
+					<Light />
 				</div>
 				<div class="body">
 					<TextInput />
