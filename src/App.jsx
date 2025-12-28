@@ -8,10 +8,10 @@ class Morse extends React.Component {
 	render() {
 		return (
 			<div class="cont">
-				<div class="cont">
+				<div class="head">
 					<h1>Morse Code</h1>
 				</div>
-				<div class="cont">
+				<div class="body">
 					<TextInput />
 				</div>
 			</div>
