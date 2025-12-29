@@ -9,6 +9,12 @@ import "./main.css";
 window.ctx = new window.AudioContext() || window.webkitAudioContext();
 
 class Morse extends React.Component {
+	constructor() {
+		super();
+
+		this.osc = window.ctx.createOscillator();
+	}
+
 	render() {
 		return (
 			<div class="cont">
