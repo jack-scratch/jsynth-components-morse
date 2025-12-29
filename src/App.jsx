@@ -13,6 +13,7 @@ class Morse extends React.Component {
 		super();
 
 		this.osc = window.ctx.createOscillator();
+		this.osc.frequency.value = 500;
 	}
 
 	render() {
